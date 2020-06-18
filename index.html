@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+        <title>Weather App</title>
+    </head>
+
+    <body>
+        <div class="title">
+            <h1 class="title-text">Weather App</h1>
+        </div>
+        <div class="location">
+            <h1 class="location-text">Location</h1>
+        </div>
+        
+        <div class="temperature">
+            <div class="container">
+                <h2 class="icon"></h2>
+                <h1 class="temp-degree">34</h1>
+                <span class="degree"><i class="wi wi-fahrenheit"></i></span>
+            </div>
+        </div>
+        
+        <div class="container">
+            <h2 class="temp-description">Very cold</h2>
+        </div>
+        <div class="container">
+            <h2 class="col-text">High <span class="temp_max">38</span><i class="wi wi-degrees"></i></h2>
+            <h2 class="col-text">Low <span class="temp_min">30</span><i class="wi wi-degrees"></i></h2>
+            <h2 class="col-text">Feels Like <span class="temp_feels_like">32</span><i class="wi wi-degrees"></i></h2>
+        </div>
+        
+        <script src="app.js"></script>
+    </body>
+</html>

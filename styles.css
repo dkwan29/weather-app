@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+    color: white;
+}
+
+.title,
+.location,
+.temperature {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    height: 12vh;
+}
+
+.location {
+    height: 13vh;
+}
+
+.temperature {
+    flex-direction: column;
+    height: 22vh;
+}
+
+.temperature h3 {
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.degree {
+    margin: 10px;
+    font-size: 4rem;
+}
+
+.temp-degree {
+    font-size: 6rem;
+}
+
+.temp-description {
+    padding: 0 0 30%;
+}
+
+.icon {
+    font-size: 4rem;
+    padding: 6% 0;
+    margin: 0 5%;
+}
+
+.title-text {
+    font-size: 1.5rem;
+}
+
+.location-text {
+    font-size: 3.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.col-text {
+    font-weight: 400;
+    padding: 0 3%;
+    text-align: center;
+}
+
+.col-text span {
+    font-weight: 600;
+}
